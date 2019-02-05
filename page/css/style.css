@@ -1,0 +1,587 @@
+
+
+body, 
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+}
+
+div {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+span {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Начало стилизации шапки сайта */
+
+header {
+	background-image: url(../img/headerBackground.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1140px;
+}
+
+/* Начало стилизации блока навигации */
+
+nav	{
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Начало стилизации бургер меню */
+
+.burger-menu {
+	height: 16px;
+	width: 22px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-top: 34px;
+}
+
+.menu-button span,
+.menu-button span::before,
+.menu-button span::after {
+	position: absolute;
+	top: 50%; margin-top: -1px;
+	width: 100%;
+	height: 2px;
+	background-color: #0d3351;
+}
+
+.menu-button span::before,
+.menu-button span::after {
+	content: '';
+}
+
+.menu-button span::before {
+	transform: translateY(-5px);
+}
+
+.menu-button span::after {
+	transform: translateY(5px);
+}
+
+/* Конец стилизации бургер меню */
+
+/* Начало стилизации бокового меню */
+
+header ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+header ul li:nth-child(1),
+header ul li:nth-child(2),
+header ul li:nth-child(3) {
+	margin-top: 39px;
+	margin-right: 39px;
+}
+
+header ul li:last-child {
+	margin-top: 33px;
+}
+
+header ul li:last-child span:first-child {
+	font-weight: bold;
+}
+
+header li .fa-caret-down {
+	color: #0d3351;
+	font-size: 14px;
+	margin-left: 7px;
+}
+
+header ul li:first-child i:first-child,
+header ul li:nth-child(2) i:first-child {
+	color: #33c7fd;
+	margin-left: 0;
+	margin-right: 8px;
+}
+
+header ul a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+	outline: none;
+	display: block;
+}
+
+header ul a span {
+	display: block;
+}
+
+header ul a span:nth-child(2) {
+	font-size: 10px;
+}
+
+.side-menu {
+	display: block;
+}
+
+/* Конец стилизации бокового меню */
+
+/* Конец стилизации блока навигации */
+
+/* Начало стилизации основного содержимого шапки */
+
+.logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 21px;
+}
+
+.header-titles span {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #0d3351;
+	margin: 0;
+	padding: 0;
+}
+
+.title-first {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	font-size: 36px;
+}
+
+.title-second {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
+	margin-bottom: 48px;
+}
+
+header .button-container {
+	padding-bottom: 196px;
+}
+
+/* Начало стилизации кнопки */
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.button-container div {
+	width: 202px;
+	height: 47px;
+	background: #33c7fd;
+	
+}
+
+.button-container div a {
+	display: block;
+	color: #fff;
+	padding: 17px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Конец стилизации кнопки */
+
+/* Конец стилизации основного содержимого шапки */
+
+/* Конец стилизации шапки сайта */
+
+/* Начало стилизации главного содержимого сайта */
+
+.fig {
+	height: 281px;
+	width: 58px;
+	display: block;
+	position: absolute;
+	background-image: url(../img/fig.png);
+	transform: translate(535px, -162px);
+}
+
+/* Начало стилизации заголовков главного содержимого сайта */
+
+.main-titles {
+	padding-top: 116px;
+}
+
+.main-titles span {
+	color: #0d3351;
+	margin: 0;
+	padding: 0;
+}
+
+.catalog-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 11px;
+}
+
+.sort-title	{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 42px;
+}
+
+.sort-title span {
+	display: block;
+}
+
+.sort-title span a {
+	display: inline-block;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.sort-title .fa-caret-down {
+	color: #0d3351;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+/* Конец стилизации заголовков главного содержимого сайта */
+
+/* Начало стилизации каталога круизов */
+
+.hidden {
+	display: none;
+}
+
+main img {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cruise-container {
+	display: block;
+}
+/* Начало стилизации описания круизов */
+
+.description {
+	display: block;
+	width: 555px;
+	height: 191px;
+	background-color: #fff;
+}
+
+.description-container {
+	padding: 30px 37px;
+}
+
+.description-container a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #00a2dd;
+}
+
+.description-container a i {
+	margin-left: 14px;
+}
+
+.description-container a span:first-child {
+	display: inline-block;
+}
+
+.route,
+.duration {
+	display: block;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #0d3351;
+}
+
+.duration {
+	margin-top: 9px;
+}
+
+.route span,
+.duration span {
+	font-weight: 600;
+}
+
+.price {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+
+.present-price {
+	display: block;
+	margin-top: 24px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: #0d3351;
+}
+
+.past-price {
+	display: block;
+	margin-left: 33px;
+	text-decoration: line-through;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #9ba4ad;
+}
+
+/* Конец стилизации описания круизов */
+
+.cruise-container-1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.bestseller {
+	width: 555px;
+	height: 628px;
+}
+
+/* Начало стилизации флажков */
+
+.flag {
+	display: block;
+	box-sizing: border-box;
+	width: 90px;
+	height: 82px;
+	position: absolute;
+	transform: translate(420px, -7px);
+	color: #fff;
+	background-color: #33c7fd;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.flag::before {
+	content: '';
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	top: 82px;
+	right: 0px;
+	width: 0; 
+	height: 0; 
+	border-width: 0px 45px 19px;
+	border-style: solid;
+	border-color: #33c7fd #33c7fd transparent;
+}
+
+.bestseller-img .flag div {
+	margin-top: 30px;
+}
+
+.discount:first-child .stock-img .flag div {
+	margin-top: 39px;
+}
+
+.discount:last-child .stock-img .flag div {
+	margin-top: 31px;
+}
+
+.discount .stock-img .flag {
+	background-color: #f20542;
+}
+
+.discount .flag::before {
+	border-color: #f20542 #f20542 transparent;
+}
+
+/* Конец стилизации флажков */
+
+.cruise-right {
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+}
+
+.discount {
+	display: block;
+	width: 555px;
+	height: 304px;
+	flex: auto;
+	margin-bottom: 20px;
+	align-items: center;
+}
+
+.discount:last-child {
+	margin-bottom: 0;
+}
+
+.normal-price {
+	width: 555px;
+	height: 406px;
+}
+
+.cruise-container-2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+main .button-container {
+	margin-bottom: 62px;
+}
+
+main .button-container i {
+	margin-left: 16px;
+}
+
+/* Конец стилизации каталога круизов */
+
+/* Конец стилизации главного содержимого сайта */
+
+/* Начало стилизации футера сайта */
+
+footer {
+	background-color: #fff;
+	height: 130px;
+}
+
+footer .container {
+	padding-top: 29px;
+}
+
+/* Начало стилизации списка страниц сайта */
+
+footer ul {
+	list-style: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+	outline: none;
+	display: block;
+}
+
+footer ul li {
+	margin-top: 11px;
+	display: block;
+}
+
+footer ul li:first-child {
+	margin-top: 0;
+}
+
+/* Конец стилизации списка страниц сайта */
+
+/* Начало стилизации ссылок на соц. сети */
+
+.social-media {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.pages {
+	display: block;
+}
+
+.info {
+	display: block;
+}
+
+.links {
+	margin-left: 149px;
+	display: block;
+}
+
+.links span {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+}
+
+.social-media-links {
+	height: 53px;
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 9px;
+}
+
+.social-media-links a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	background-color: #0d3351;
+	border-radius: 50%;
+	position: relative;
+}
+
+.social-media-links a i {
+	color: #fff;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Конец стилизации ссылок на соц. сети */
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Начало стилизации дополнительной информации */
+
+.info .support,
+.info .copyright {
+	font-family: 'Raleway', sans-serif;
+	color: #0d3351;
+}
+
+.info span {
+	display: block;
+	margin-top: 11px;
+}
+
+.info .support span:first-child {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.info .support span:nth-child(2) {
+	font-size: 10px;
+}
+
+.copyright {
+	font-size: 14px;
+}
+
+/* Конец стилизации дополнительной информации */
+
+/* Конец стилизации футера сайта */

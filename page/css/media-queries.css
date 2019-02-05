@@ -1,0 +1,333 @@
+@media only screen and (max-width: 1140px) {
+
+	.container {
+		max-width: 735px;
+	}
+
+	.title-first {
+		font-size: 26px;
+		margin-top: 5px;
+	}
+
+	.title-second {
+		font-size: 72px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	header .button-container {
+		padding-bottom: 208px;
+	}
+
+	.fig {
+		height: 225px;
+		width: 48px;
+		background-image: url(../img/tablet/tablet-fig.png);
+		transform: translate(327px, -184px);
+	}
+
+	.main-titles {
+		padding-top: 58px;
+	}
+
+	.catalog-title {
+		font-size: 26px;
+	}
+	
+	.cruise-container {
+		display: none;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+	.description {
+		width: 345px;
+		height: 236px;
+	}
+
+	.description-container {
+		padding: 30px 32px;
+	}
+	
+	.description-container a span:first-child {
+		display: block;
+	}
+
+	.description-container a i {
+		margin-left: 11px;
+	}
+
+	.route {
+		max-width: 255px;
+	}
+
+	.past-price {
+		margin-left: 15px;
+	}
+
+	.flag {
+		transform: translate(224px, -7px);
+	}
+	
+	.second .flag,
+	.third .flag {
+		background-color: #f20542;
+	}
+	
+	.second .flag::before,
+	.third .flag::before {
+		border-color: #f20542 #f20542 transparent;
+	}
+
+	.first .flag div {
+		margin-top: 30px;
+	}
+
+	.second .flag div {
+		margin-top: 39px;
+	}
+
+	.third .flag div {
+		margin-top: 31px;
+		background-color: #f20542;
+	}
+	
+	.first,
+	.second,
+	.third,
+	.fourth {
+		display: block;
+		width: 345px;
+		height: 508px;
+		margin-bottom: 25px;
+	}
+	
+	.first-img,
+	.second-img,
+	.third-img,
+	.fourth-img {
+		width: 345px;
+		height: 272px;
+	}
+
+	.first-img {
+		background-image: url(../img/tablet/first-img.png);
+	}
+	
+	.second-img {
+		background-image: url(../img/tablet/second-img.png);
+	}
+
+	.third-img {
+		background-image: url(../img/tablet/third-img.png);
+	}
+
+	.fourth-img {
+		background-image: url(../img/tablet/fourth-img.png);
+	}
+
+	.hidden {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 710px) {
+
+	.container {
+		max-width: 290px;
+	}
+	
+	.side-menu {
+		display: none;
+	}
+
+	nav {
+		height: auto;
+		padding-top: 27px;
+		display: block;
+		float: left;
+		position: absolute;
+	}
+	
+	.burger-menu {
+		margin-top: 0;
+	}
+
+	.logo {
+		margin-top: 0;
+		padding-top: 27px;
+	}
+
+	.title-first {
+		font-size: 20px;
+		margin-top: 5px;
+	}
+
+	.title-second {
+		font-size: 50px;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	header .button-container {
+		padding-bottom: 208px;
+	}
+
+	.fig {
+		height: 225px;
+		width: 48px;
+		background-image: url(../img/tablet/tablet-fig.png);
+		transform: translate(112px, -184px);
+	}
+
+	.main-titles {
+		padding-top: 58px;
+	}
+
+	.catalog-title {
+		font-size: 20px;
+	}
+	
+	.cruise-container {
+		display: none;
+	}
+
+	.hidden {
+		display: block;
+	}
+
+	.description {
+		width: 290px;
+		height: 236px;
+	}
+
+	.description-container {
+		padding: 22px 30px;
+		padding-right: 0;
+	}
+	
+	.description-container a span:first-child {
+		display: block;
+	}
+
+	.description-container a i {
+		margin-left: 11px;
+	}
+
+	.route {
+		
+	}
+
+	.past-price {
+		margin-left: 10px;
+	}
+
+	.flag {
+		transform: translate(178px, -7px);
+	}
+	
+	.second .flag,
+	.third .flag {
+		background-color: #f20542;
+	}
+	
+	.second .flag::before,
+	.third .flag::before {
+		border-color: #f20542 #f20542 transparent;
+	}
+
+	.first .flag div {
+		margin-top: 30px;
+	}
+
+	.second .flag div {
+		margin-top: 39px;
+	}
+
+	.third .flag div {
+		margin-top: 31px;
+		background-color: #f20542;
+	}
+	
+	.first,
+	.second,
+	.third,
+	.fourth {
+		display: block;
+		width: 290px;
+		height: 466px;
+		margin-bottom: 20px;
+	}
+	
+	.first-img,
+	.second-img,
+	.third-img,
+	.fourth-img {
+		width: 290px;
+		height: 229px;
+	}
+
+	.first-img {
+		background-image: url(../img/mobile/first-img.png);
+	}
+	
+	.second-img {
+		background-image: url(../img/mobile/second-img.png);
+	}
+
+	.third-img {
+		background-image: url(../img/mobile/third-img.png);
+	}
+
+	.fourth-img {
+		background-image: url(../img/mobile/fourth-img.png);
+	}
+
+	.hidden {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	footer {
+		height: 200px;
+	}
+
+	main .button-container {
+		margin-bottom: 32px;
+	}
+	
+	footer .pages {
+		display: none;
+	}
+
+	.links {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+
+	.social-media {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.info {
+		display: block;
+		text-align: center;
+	}
+	footer .container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
